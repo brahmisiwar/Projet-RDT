@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+body, nav {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #143a3b;
+    position: fixed;
+
+    font-family: 'Bebas Neue';
+    color: antiquewhite;
+
+    width: 100vw;
+    height: 10vh;
+    margin: 0px;
+}
+
+ul {
+    
+    margin-top: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+
+    font-weight: 900;
+    font-size: 6vh;
+
+    border-color: white;
+}
+
+.Section {
+    height: 100vh;
+}
+
+.First {
+    background-color: #ffffff;
+    color: #143a3b;
+    letter-spacing: 0.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.First > p {
+    font-weight: 900;
+    font-size: 4vw;
+    font-family: 'Ultra';
+    margin: 0px;
+}
+
+.First > p > img {
+    max-width: 500px;
+    max-height: 100%;
+}
+
+.Second{
+    background-color: #143a3b;
+
+    font-family: 'Bebas Neue';
+    font-size: 1.5em;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-titre{
+    font-family: "Merienda";
+}
+
+li img {
+    width: 100%;
+}
+
+.logo{
+    max-width: 100px;
+    max-height: 100%;
+    display: block;
+}
+
+.menu-objet{
+    background-color: white;
+    width: 40vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 10px;
+
+    margin-top: 1.5%;
+
+    border-style: dashed;
+    border-color: white;
+    border-width: 10px;
+}
+
+.menu-objet > div:nth-child(2) {
+    font-weight: 50;
+}
+
+.menu-titre{
+    color: white;
+}
+
+.menu-nom{
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 900;
+}
+
+.Third{
+    font-size: 10vh;
+    height: 20vh;
+    color: #143a3b;
+    margin: 2%;
+    margin-bottom: 2%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Third > div {
+    margin: 0px;
+    margin-left: 10%;
+
+    max-width: 30vw;
+}
+
+.Third div:nth-child(1) {
+    margin-left: 10%;
+}
+
+.Third div:nth-child(2) {
+    margin-left: 15%;
+}
+
+.Third div p {
+    margin-bottom: -5%;
+}
+
+.stylized-line {
+    margin: 0px;
+    font-size: 60%;
+    font-family: 'Merienda';
+    text-align: right;
+}
+
+.normal-line {
+    margin: -10px;
+    text-align: left;
+    font-family: 'Bebas Neue';
+    font-size: 120%;
+    font-weight: 900;
+}
